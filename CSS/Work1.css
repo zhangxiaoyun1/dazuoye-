@@ -1,0 +1,350 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-12-16 10:48:01
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-12-24 22:45:08
+*/
+	* {
+        padding: 0;
+        margin: 0
+    }
+    ul,li{
+        list-style: none;
+    }
+    .part{
+    	width: 100%;
+    	height: 128px;
+    	z-index: 1;
+    }
+    .toppart{
+        height: 128px;
+        width: 1180px;
+        margin: 0 auto;
+        background-color: #FFF;
+        padding-top: 7px;   
+    }
+    .toppart1{
+        height: 19px;
+        color: #9a9791;
+        font-size: 12px;
+        z-index:1;
+    }
+    .toppart1 li{
+        float: left;
+        margin-left: 20px;
+        height: 21px;
+        line-height: 21px;
+    }
+    .toppart1 li:hover{
+        color: #fe6c00;
+    }
+    .toppart2{
+        height: 80px;
+    }
+    .toppart2 ul{
+        height: 80px;
+    }
+    .toppart2 li{
+       float: right;
+    }
+    .toppart3{
+        margin-left: 254px;
+        font-size: 10px;
+        color: #000;
+    }
+    .toppart3 li{
+       float: left;
+       border-right: 1px solid #9a9791; 
+    }
+    .toppart3 li span{
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+    .toppart4{
+        height: 44px;
+        font-size: 16px;
+        color: #000;
+    }
+    .toppart4 li{
+       float: left; 
+       height: 44px;
+    }
+    .toppart4 li:hover{
+       color: red;
+    }
+    .toppart4 li span{
+       margin-left: 35px;
+       margin-right: 35px;
+       line-height: 44px;
+    }
+    .tab td:hover{
+        color: #fe6c00;
+    }
+    .toppart5{
+        height: 550px;
+        width: 1180px;
+        background-color: #FFF;
+        margin: 0 auto;
+        
+    }
+    #box{
+        width: 800px;
+        height: 362px;
+        float: left;
+        position: relative;
+        overflow: hidden;
+        display: inline;
+        border-bottom: 1px solid #fe6c00;
+        border-right: 1px solid #fe6c00;
+    }
+    #limg{
+        width: 6400px;
+        position: absolute;
+        left: -800px;
+    }
+    .slide{
+        width: 800px;
+        overflow: hidden;
+        float: left;
+    }
+    .imgs{
+        width: 200px;
+        overflow: hidden;
+        float: left;
+    }
+    #left{
+    	padding-left: 30px;
+    	margin-top: 150px;
+    	float: right;
+    }
+    #right{
+        padding-right: 30px;
+        padding-top: 150px; 
+		float: left;
+    }
+    .nav{
+	    position: absolute;
+	    left: 250px;
+	    bottom: 20px;
+    }
+    .nav>li{
+        float: left;
+        width: 20px;
+        height: 20px;
+        background: #ccc;
+        cursor: pointer;
+        margin: 0 10px;
+        border-radius: 50%;
+    }
+    .nav .active{
+        background: red;
+    }
+    .last{
+        width: 800px;
+        height: 180px;
+        border-bottom:1px solid #9a9791;
+        margin-left: 200px;
+        display: inline;
+    }
+    .last1{
+        width: 100px;
+        float: left;
+        margin-top: 35px;
+        margin-left: 30px;
+        font-size: 10px;
+        color: #666560;
+        line-height: 25px;
+    }
+    .last2{
+        margin-left: 155px;
+        color: #666560;
+        font-size: 10px;
+        border-top: 1px solid #d0cdc7;
+    }
+    .last2 li{
+        float: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-right: 1px solid #d0cdc7;
+        margin-top: 15px;
+    }
+    .ce{
+        position: fixed;
+        right: 0px;
+        top: 50px; 
+    }
+    .ce li{
+        width: 140px;
+        position: absolute;
+        overflow: hidden;
+        right: -100px;
+    }
+    .chongzhi{
+        margin-top: 5px;
+        width: 160px;
+        height: 25px;
+        border:1px solid #fe6c00;
+        background-color: #fe6c00;
+        color: #FFF;
+        border-radius: 5px;
+    }
+    .huafei{
+        width: 200px;
+        height: 185px;
+        float: right;
+        border-top: 1px solid #9a9791;
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .gonggao{
+        width: 200px;
+        float:right;
+        display: inline;
+        line-height: 29px;
+        font-size:10px;
+        color:#fe6c00;
+        height: 320px;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+    .bangbang{
+        width: 210px;
+        height: 45px;
+        border-bottom:1px solid #9a9791;
+        float:right;
+        display: inline;
+        margin-top: 0;
+        line-height: 45px;
+    }
+
+
+
+/* 第二页 */
+.dao{
+    height: 40px;
+    background-color: #000;
+}
+.dao1{
+    font-size: 16px;
+    color:#FFF;
+    line-height: 40px;
+}
+.dao1 li{
+    float: left;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.x:hover{
+    background-color: #fe0d4a;
+}
+#box3{
+    width:994px;
+    height:408px;
+    position:relative;
+    
+}
+#box1{
+    width: 994px;
+    height: 632px;
+    margin-top: 20px; 
+    background-color: #FFF;
+}
+#img1{
+    width: 408px;
+    height: 408px;
+    position: absolute;
+    float: left;
+    left: 20px;
+    top: 20px;
+    border:1px solid #d0cdc7;
+}
+#slider{
+    width:102px;
+    height:102px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#000;
+    opacity:0.4;
+    cursor: move;
+    display:none; 
+    filter:alpha(opacity=40);
+}
+
+#img2{
+    display:none; 
+    width:408px;
+    height:408px;
+    overflow:hidden; 
+    border: 1px solid #d0cdc7;
+    position:absolute;
+    float: left;
+    margin-left: 428px;
+    top:20px;
+}
+
+#Bimg{
+    height: 1632px;
+    width: 1632px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.ml li{
+    float: left;
+    font-size: 12px;
+    line-height:30px;
+    margin-left: 24px;
+}
+.li{
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid red;
+    background : url(../img/duigou.png) no-repeat 48px 17px;
+}
+.number{
+    margin-left: 90px;
+    height: 30px;
+}
+.number li{
+    float: left;
+    border: 1px solid #9a9791;
+    height: 30px;
+    line-height: 30px;
+}
+#jian{
+    width: 18px;
+    padding-left: 10px;
+}
+#num{
+     width: 25px;
+    padding-left: 18px;
+}
+#jia{
+    width: 18px;
+    padding-left: 10px;
+}
+.p1{
+    border:2px solid #ff9003;
+}
+.buy{
+   width: 100%; 
+   height:100%;
+   left: 0;
+   top: 0;
+   position:fixed; 
+   background:rgba(0,0,0,0.5);
+   z-index: 1;
+   display: none;  
+}
+.buy1{
+    width: 410px;
+    height: 223px;
+    position:absolute;
+    left: 550px;
+    top: 250px;
+    border: 3px solid #aca9d3;
+    background: #FFF;
+    display: none; 
+}
